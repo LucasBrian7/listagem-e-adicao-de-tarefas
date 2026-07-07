@@ -34,7 +34,7 @@ export default function ListaTarefas({ tarefasIniciais }: Props) {
       <h1 className={styles.titulo}>📋 Lista de Tarefas</h1>
 
       <p className={styles.total}>
-        Total de tarefas: <strong>{total}</strong>
+        Total: {total}
       </p>
 
       <NovaTarefa onAdicionar={adicionar} />

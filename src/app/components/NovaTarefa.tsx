@@ -24,7 +24,7 @@ export default function NovaTarefa({ onAdicionar }: Props) {
     <form onSubmit={enviar} className={styles.form}>
       <input
         className={styles.input}
-        placeholder="Digite uma tarefa..."
+        placeholder="Nova tarefa"
         value={texto}
         onChange={(e) => setTexto(e.target.value)}
       />
