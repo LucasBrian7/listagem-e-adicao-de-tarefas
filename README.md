@@ -84,3 +84,17 @@ Foram desenvolvidos testes unitários para:
 
 - Página principal
   - Renderização da lista de tarefas
+
+  ## CI/CD
+
+Este projeto utiliza GitHub Actions para automatizar o processo de Integração Contínua (CI) e Entrega Contínua (CD).
+
+A pipeline executa automaticamente:
+
+- Instalação das dependências
+- Verificação de código com ESLint
+- Execução dos testes unitários
+- Build da aplicação
+- Deploy automático na Vercel a cada push na branch `main`
+
+## Aplicação publicada
