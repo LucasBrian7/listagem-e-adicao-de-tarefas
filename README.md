@@ -98,3 +98,9 @@ A pipeline executa automaticamente:
 - Deploy automático na Vercel a cada push na branch `main`
 
 Projeto com CI/CD utilizando GitHub Actions e Vercel.
+
+## Aplicação
+
+Acesse o projeto publicado:
+
+https://listagem-e-adicao-de-tarefas.vercel.app
