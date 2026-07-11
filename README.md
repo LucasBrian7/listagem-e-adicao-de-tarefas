@@ -97,4 +97,4 @@ A pipeline executa automaticamente:
 - Build da aplicação
 - Deploy automático na Vercel a cada push na branch `main`
 
-## Aplicação publicada
+Projeto com CI/CD utilizando GitHub Actions e Vercel.
